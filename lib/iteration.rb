@@ -32,8 +32,9 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
   src.reduce(0) do |memo, element|
-    if (element[0] % 2 == 0) && if (element[1] % 2 == 0) 
-      element[0] + element[1]
+    if (element[0] % 2 == 0)
+      if (element[1] % 2 == 0) 
+        element[0] + element[1]
     end 
   end 
 end
