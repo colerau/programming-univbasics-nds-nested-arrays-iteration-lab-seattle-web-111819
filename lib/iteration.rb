@@ -34,7 +34,7 @@ def total_even_pairs(src)
   src.reduce(0) do |memo, element|
     if (element[0] % 2 == 0)
       if (element[1] % 2 == 0) 
-        element[0] + element[1]
+        memo += element[0] + element[1]
       end
     end
     memo
