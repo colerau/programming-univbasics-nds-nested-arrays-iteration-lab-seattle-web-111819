@@ -36,7 +36,8 @@ def total_even_pairs(src)
       if (element[1] % 2 == 0) 
         element[0] + element[1]
       end
-    end 
+    end
+    memo
   end 
 end
 
