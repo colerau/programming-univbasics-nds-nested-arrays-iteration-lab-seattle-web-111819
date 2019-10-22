@@ -14,7 +14,7 @@ def find_greater_pair(src)
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
   a = []
-  src.reduce do |a, element|
+  src.map do |element|
     if element[0] > element[1]
       a.push(element[0])
     else
