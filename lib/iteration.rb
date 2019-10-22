@@ -13,8 +13,8 @@ def find_greater_pair(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
-  src.map do |element|
-    if element[0] > element[1]
+  src.reduce do 
+    
       
 end
 
