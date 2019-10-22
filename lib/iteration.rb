@@ -20,7 +20,6 @@ def find_greater_pair(src)
       [].push(element[1])
     end
   end
-      
 end
 
 def total_even_pairs(src)
