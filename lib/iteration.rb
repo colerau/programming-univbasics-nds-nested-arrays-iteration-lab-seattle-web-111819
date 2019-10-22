@@ -16,9 +16,9 @@ def find_greater_pair(src)
   a = []
   src.map do |element|
     if element[0] > element[1]
-      a.push(element[0])
+      element[0]
     else
-      a.push(element[1])
+      element[1]
     end
   end
 end
